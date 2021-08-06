@@ -1,0 +1,103 @@
+
+/*Animación al cargar*/
+.st0{
+    fill: none;
+    /*fill:#2f3239; */
+}
+.st1{
+    fill: none;
+    /*fill:#db6b49;*/
+}
+
+#letras{
+    height: 400px;
+    margin-left: 550px;
+    margin-right: 60px;
+}
+.st1{
+    fill: transparent;
+    stroke:#db6b49;
+    stroke-dasharray: 330;
+    stroke-dashoffset: 0;
+    animation: happy 5s linear forwards;
+}
+.st0{
+    fill: transparent;
+    stroke:#2f3239;
+    stroke-dasharray: 330;
+    stroke-dashoffset: 0;
+    animation: sombra 5s linear forwards 3s;
+}
+
+
+@keyframes happy{
+    from{
+        stroke-dashoffset: 400;
+        fill: transparent;
+    }
+    to{
+        stroke-dashoffset: 0;
+        fill: #db6b49;
+    }
+}
+@keyframes sombra{
+    from{
+        stroke-dashoffset: 400;
+        fill: transparent;
+    }
+    to{
+        stroke-dashoffset: 0;
+        fill: #2f3239;
+    }
+}
+/*PAVO*/
+#PAVO{
+    height: 500px;
+}
+.cls-2{
+    fill:#2f3239
+}
+.cls-5{
+    fill:#353131
+}
+.cls-6
+{fill:#e1c62a
+}
+.cls-7{
+    fill:#593528
+}
+.cls-8{
+    fill:#e9c9ad
+}
+.cls-9{
+    fill:#dcdcdc;
+    mix-blend-mode:multiply
+}
+.cls-10{
+    fill:#c2a72f
+}
+.cls-12{
+    fill:#c45d41
+}
+.cls-15{
+    fill:#c55c5d
+}
+.cls-17{
+    fill:#d66327
+}
+.cls-20{
+    fill:#fff
+}
+
+#PAVO{
+    animation: rebote 1s 7 ease;
+}
+
+@keyframes rebote {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-40px);
+    }
+  }
