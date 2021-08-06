@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" manifest="cache.appcache">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensaje de Cookies</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+<body>
+    <?php 
+    setcookie("usuario", "contacto@mejorcodigo.net" , time() + 84600);
+    ?>
+    <div class="cookies-box">
+        <div class="container-cookies">
+            <div class="parrafo">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et, obcaecati aperiam provident odit placeat officiis. 
+                    Dolor fugiat voluptate minus eius exercitationem excepturi vitae repellat, iusto eum ullam asperiores! Placeat, autem. <a href="">Politicas de privacidad</a></p>
+            </div>
+            <div class="botones">
+                <button>Aceptar</button>
+                <button id="close">Cerrar</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const btn_close = document.querySelector('#close')
+        const cont_cookies = document.querySelector('.cookies-box')
+        
+        btn_close.addEventListener('click', () => {
+          cont_cookies.style.bottom = '-200px'  
+        })
+    </script>
+</body>
+
+</html>
