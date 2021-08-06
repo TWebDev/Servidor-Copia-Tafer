@@ -1,0 +1,36 @@
+/*COLORES STT*/
+#contenido{
+    background: transparent;
+    border: none;
+}
+#ventana-modal{
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    animation: modal 2s 2s forwards;
+    visibility: hidden;
+    opacity: 0;
+}
+#boton {
+    color: white;
+}
+.close {
+    animation: modal 2s 2s forwards;
+    visibility: hidden;
+    opacity: 0;
+}
+@media(max-width:767px){
+    #cerrar + label{
+        margin-right: -200px;
+    }
+}
+.close:checked, .close:checked ~ #ventana-modal{
+    display: none;
+}
+@keyframes modal{
+    100%{
+      visibility: visible;
+      opacity: 1;
+     }
+}
