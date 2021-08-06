@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Amazing Mexico</title>
+</head>
+<body>
+
+    <header class="home">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light ">
+            <div class="container">
+              <a class="navbar-brand " href="index.html"><img src="img/Logo.png" alt="Beach Vibes" id="logo"/></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation" onclick="ocultarimagen();">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav ml-auto mb-2 mb-lg-0 ">
+                  <li class="nav-item">
+                    <a class="nav-link" href="Vallarta.html" style="color: #3f4c72;">Puerto Vallarta</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link" aria-current="page" href="Cancun.html" style="color:#3f4c72;">Cancun</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Cabo.html" style="color: #3f4c72;">Cabo San Lucas</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Riviera.html" style="color: #3f4c72;">Riviera Maya</a>
+                  </li>
+                 
+                  <li class="nav-item">
+                    <a class="nav-link" href="Loreto.html" style="color: #3f4c72;">Loreto</a>
+                  <li class="nav-item">
+                    <a class="nav-link btn-primary" href="best-packages.html" style="color: #3f4c72; border-radius: 5px;">Best Promotions</a>
+                  </li>
+                </ul>
+               
+              </div>
+            </div>
+        </nav>
+          <!--TEXTO HEADER-->
+          <!--VISTA COMPUTADORA-->
+          <div class="container pt-5 d-none d-sm-none d-md-block" id="texto-header">
+            <div class="row d-flex justify-content-start pt-5">
+                <h2>Home</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, commodi incidunt. Tenetur natus, architecto ullam illum inventore, soluta ducimus veniam et recusandae modi velit vero doloremque quae officia, delectus harum?</p>
+                <hr width=600 style="background-color: white; margin-left: -5px;">
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo molestias dolorum soluta excepturi! Placeat, sunt! Inventore nisi fuga maxime eligendi quod, laborum reprehenderit at possimus esse sapiente, porro expedita pariatur!</p>
+            </div>
+            <div class="row d-flex justify-content-center pt-4" id="reservation">
+                <div class="col-md-3 d-flex justify-content-center">
+                    <h1><sup>Search</sup> </h1>               
+                </div>
+                <div class="col-3 ">
+                  <select class="custom-select" id="validationDefault04" required>
+                    <option selected disabled value="">Destinations</option>
+                    <option value="Vallarta">Puerto Vallarta</option>
+                    <option value="Cabo San Lucas">Cabo San Lucas</option>
+                    <option value="Riviera Maya">Riviera Maya</option>
+                    <option value="Loreto">Loreto</option>
+                    <option value="Cancun">Cancun</option>
+                  </select>
+                </div>
+                <div class="col-3">
+                    <input type="date" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+                </div>
+                <div class="col-3 ">
+                    <button type="button" class="btn btn-primary">Go somewhere</button>
+                </div>
+            </div>
+          </div>
+
+        <!--VISTA CELULAR-->
+        <div class="container d-block d-sm-block d-md-none pt-5" id="texto-celular">
+          <div class="row pt-5">
+            <h3>Home</h3>
+            <p id="parrafo1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, commodi incidunt. Tenetur natus, architecto ullam illum inventore, soluta ducimus veniam et recusandae modi velit vero doloremque quae officia, delectus harum?</p>
+                <hr width=600 style="background-color: white; ">
+                <p id="parrafo2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo molestias dolorum soluta excepturi! Placeat, sunt! Inventore nisi fuga maxime eligendi quod, laborum reprehenderit at possimus esse sapiente, porro expedita pariatur!</p>
+          </div>
+          <div class="row d-flex justify-content-center pt-4" id="reservation">
+              <div class="col-md-3 d-flex justify-content-center">
+                  <h1><sup>Search</sup> </h1>               
+              </div>
+              <div class="col-md-3 ">
+                <select class="custom-select" id="validationDefault04" required>
+                  <option selected disabled value="">Destinations</option>
+                  <option value="Vallarta">Puerto Vallarta</option>
+                  <option value="Cabo San Lucas">Cabo San Lucas</option>
+                  <option value="Riviera Maya">Riviera Maya</option>
+                  <option value="Loreto">Loreto</option>
+                  <option value="Cancun">Cancun</option>
+                </select>
+              </div>
+              <div class="col-md-3 pt-3">
+                  <input type="date" class="form-control" placeholder="" aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+              <div class="col-md-3 pt-3 d-flex justify-content-center" id="boton-celular">
+                <div>
+                  <button type="button" class="btn btn-primary">Go somewhere</button>
+                </div>
+                
+            </div>
+          </div>
+        </div>
+
+
+    </header>
+   
+    <!--DESTINATIONES-->
+    <div class="container pt-5" >
+        <div class="row">
+            <h1>Destination</h1>
+        </div>
+        <div class="row pt-3">
+            <div class="col-md-3 pt-2">
+                <div class="card" >
+                    <img src="img/Destino-Cancun.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cancun</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div> 
+            </div>
+            <div class="col-md-3 pt-2">
+                <div class="card" >
+                    <img src="img/Destino-Vallarta.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Puerto Vallarta</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 pt-2">
+                <div class="card" >
+                    <img src="img/Destino-Cabo.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Los Cabos</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 pt-2">
+                <div class="card" >
+                    <img src="img/Destino-Loreto.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Loreto</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+  
+<!--TESTIMONIALES-->
+    <div class="container pt-5">
+      <div class="row d-flex justify-content-center">
+        <h1>Testimoniales</h1>
+      </div>
+        <div class="row pt-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-md-2">
+                        <img src="img/Testimonial.png" alt="">
+                    </div>
+                    <div class="col col-md-10">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore in ratione sint exercitationem esse nobis assumenda dolores doloribus architecto libero voluptates necessitatibus quidem enim, cumque aut, delectus repellendus perspiciatis sit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--FOLLOW US-->
+    <div class="container  pt-5" id="follow-us" >
+        <div class="row " id="tit-follow">
+          <div class="col-4">
+            <h1>Follow Us</h1>
+          </div>
+           
+            <div class="col-2">
+                <img src="img/FB.png" alt="">
+                <img src="img/IG.png" alt="">
+            </div>
+            
+        </div>
+        <div class="row d-flex   pt-3">
+            <div class="col col-md-2">
+                <img src="img/Follow-1.png" alt="">
+            </div>
+            <div class="col  col-md-2">
+                <img src="img/Follow-2.png" alt="">
+            </div>
+            <div class="col col-md-2">
+                <img src="img/Follow-3.png" alt="">
+            </div>
+            <div class="col col-md-2">
+                <img src="img/Follow-4.png" alt="">
+            </div>
+            <div class="col col-md-2">
+                <img src="img/Follow-5.png" alt="">
+            </div>
+            <div class="col col-md-2">
+                <img src="img/Follow-6.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!--BLOG-->
+
+    <div class="container pt-5" >
+        <div class="row">
+            <h1>Blog</h1>
+        </div>
+        <div class="row  pt-3" >
+            <div class="col-md-5 pt-2">
+                <div class="card" id="blog-1">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <a href="#" class="btn btn-secondary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3 pt-2">
+                <div class="card" id="blog-1">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <a href="#" class="btn btn-secondary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-4 pt-2">
+                <div class="card" id="blog-3">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <a href="#" class="btn btn-secondary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row pt-2">
+            <div class="col-md-4">
+                <div class="card" id="blog-4">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <a href="#" class="btn btn-secondary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-3 pt-2">
+                <div class="card" id="blog-5">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <a href="#" class="btn btn-secondary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-md-5 pt-2">
+                <div class="card" id="blog-6">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      <a href="#" class="btn btn-secondary">Go somewhere</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-center pt-5" id="more">
+            <button type="button" class="btn btn-primary">Learn more</button>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="container pt-5">
+          <div class="row d-flex justify-content-center pt-5">
+            <div class="col col-md-2">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati sunt error accusamus accusantium iusto! Atque accusantium perferendis suscipit quidem autem fugit nobis nemo culpa earum ab. Dolorem facilis autem doloribus!
+              </p>
+            </div>
+            <div class="col col-md-2">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, aspernatur, officiis asperiores architecto tempore est repellat ipsam officia repellendus saepe optio praesentium doloribus modi nam molestiae suscipit. Deserunt, necessitatibus corrupti.
+              </p>
+            </div>
+            <div class=" col-md-2">
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatibus sequi officia, atque similique doloribus labore accusantium nesciunt sapiente aliquam velit a earum veritatis quasi quo, ullam cum perferendis provident.
+              </p>
+            </div>
+            <div class=" col-md-2">
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae quibusdam nostrum rerum eius cum ex obcaecati, vitae eum tempora eaque neque iusto sed soluta odit magni mollitia, aut, minus est.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

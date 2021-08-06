@@ -1,0 +1,360 @@
+.bg-light{
+    background-color: white !important;
+}
+/*FUENTES*/
+@font-face{
+    font-family: "Oh Golds";
+    src: url("fonts/Oh!\ golds\ DEMO.ttf");
+}
+@font-face{
+    font-family: "Sans Serif";
+    src: url("fonts/Sanseriffic.otf");
+}
+@font-face{
+    font-family: "Painting With Chocolate";
+    src: url("fonts/Painting_With_Chocolate.ttf");
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+/*HEADERS*/
+.home{
+    background-image: url("../img/Header-Home.png");
+    height: 80vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.destination-1{
+    background-image: url("../img/Header-Destino-Cabo.png");
+    height: 60vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.best-packages-1{
+    background-image:  url("../img/Header-Home.png");
+    height: 40vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.package-1{
+    background-image:  url("../img/grand\ oasis\ palm_4.png");
+    height: 40vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+@media(max-width:414px){
+    .home{
+        background-image: url("../img/Header-Home.png");
+        height: 150vh;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center; 
+    }
+    .destination-1{
+        background-image: url("../img/Header-Destino-Cabo.png");
+        height: 83vh;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    .best-packages-1{
+        background-image:  url("../img/Header-Home.png");
+        height: 80vh;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+    }
+    
+}
+#texto-header{
+    color: white;
+}
+#texto-header h2{
+    margin-top: 200px;
+    font-size: 3.5em;
+}
+#texto-celular{
+    color: white;
+    margin-top: 100px;
+}
+#texto-celular h3{
+    padding: 10px 10px 10px 10px;
+    font-size: 2.5em;
+}
+#parrafo2{
+    font-size: 0.5em;
+    padding: 10px 10px 10px 10px;
+}
+#parrafo1{
+    font-size: 1em;
+    padding: 10px 10px 10px 10px;
+}
+/*RESERVATION*/
+#reservation{
+    background: #EDEDED;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+#reservation input{
+    border-color: #DDDDDD;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+}
+#reservation h1{
+    color:#848484;
+}
+
+/*DESTINATIONS*/
+#destinations{
+}
+#nav-cel{
+    background: white;
+    padding: 20px 20px 20px 20px;
+}
+/*BOTONES*/
+.btn-primary{
+    background: #B7D93D;
+    border: #B7D93D;
+}
+.btn-primary:hover{
+    background: #02BFD0;
+    border: #02BFD0;
+}
+/*.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+    background-color: #B7D93D;
+    border-color: #B7D93D; 
+}*/
+/*.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus{
+    box-shadow: 0 0 0 0.2rem rgba(183, 217, 61);
+}*/
+.btn-primary.focus, .btn-primary:focus{
+    background-color: #B7D93D;
+    border-color: #B7D93D;
+    box-shadow: 0 0 0 0.2rem rgba(2, 191, 208);
+}
+.btn-secondary{
+    background: #02BFD0;
+    border: #02BFD0;
+}
+#find{
+    color: white;
+    font-size: 1.5em;
+}
+#more{
+    margin-bottom: 90px
+}
+#boton-celular{
+    margin-bottom: 20px
+}
+/*TESTIMONIALES*/
+
+/*FOLLOW*/
+#follow-us img{
+    max-width: 180px;
+}
+#tit-follow h1{
+    font-size: 3.5em;
+    color: #03738C;
+}
+/*BLOG*/
+#blog{
+    color: #03738C;
+}
+#blog-1{
+    background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)) ,  url(../img/Blog-1.png)  no-repeat;
+}
+#blog-2{
+    background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)) , url(../img/Blog-2.png) no-repeat;
+}
+#blog-3{
+    background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)) , url(../img/Blog-3.png) no-repeat;
+}
+#blog-4{
+    background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)) , url(../img/Blog-4.png) no-repeat;
+}
+#blog-5{
+    background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)) , url(../img/Blog-5.png) no-repeat;
+}
+#blog-6{
+    background: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)) , url(../img/Blog-6.png) no-repeat;
+}
+/*FOOTER*/
+footer{
+    background: #03738C;
+    color: white;
+}
+/*PAYMENT*/
+#payment{
+   display: none;
+}
+#payment h1{
+    color: #02BFD0;
+    margin-top: 15px;
+    text-align: left;
+}
+#details{
+    margin-bottom: 150px;
+}
+#pay-price h1{
+    color: #02BFD0;
+}
+#pay-price span{
+    color: black;
+    font-size: 0.7em;
+}
+#dates{
+    padding: 10px 0px 10px 10px;
+}
+/*MENU DESTINOS*/
+#menu-destino{
+    background: white;
+    margin-top: 400px;
+    padding: 20px 20px 20px 20px;
+}
+#borde-arriba{
+    border-top: 2px black ;
+}
+/*DESTINOS */
+#barra-celular{
+    margin-top: 0px;
+}
+#barra-celular nav a{
+    font-size: 0.6em;
+}
+#info-room{
+    margin-bottom: 100px;
+}
+#info-room ul{
+    list-style: none;
+}
+#info-room h6{
+    font-size: 0.8em;
+    padding: 2px 1px 2px 1px;
+}
+#Titulo-destino h1{
+    color: #03738C;
+    font-size: 3.5em;
+}
+#more{
+    color: #02BFD0;
+}
+#less{
+    color: #02BFD0;
+}
+#photos{
+    color: #02BFD0;
+}
+#activities h1{
+    color: #02BFD0;
+}
+#activities h2{
+    color: #03738C;
+}
+#reviews h1{
+    color: #02BFD0;
+}
+#form-dest-cel{
+    background: #B7D93D;
+}
+#contenido{
+    display: none;
+}
+#testimonial-destino{
+    margin-bottom: 100px;
+}
+/*CAJA DE BUSQUEDA DE DESTINO*/
+.phone-box {
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+    width: 100%;
+    z-index: 3;
+    text-align: center;
+    padding: 5px 20px;
+    background-color: #B7D93D;
+}
+.phone-box h1{
+    color: white;
+    font-size: 1em;
+}
+#datos-review h1{
+    color: #03738C;
+}
+.dropdown-toggle{
+    background: #B7D93D;
+}
+.dropdown-toggle::after{
+    display: none;
+    margin-left: none;
+
+}
+/*FORMULARIO DESTINOS*/
+#tit-form h1{
+font-size: 1.3em;
+}
+#form-destino h4{
+    font-size: 1em;
+}
+#card-body{
+    margin-bottom: -40px;
+}
+#radio{
+    padding: 0px 10px 10px 40px;
+}
+#check-box{
+    padding: 0px 10px 10px 40px;
+}
+.raya{
+    padding: 0px 10px 0px 10px;
+}
+/*Best Packages*/
+#reservation-pk-cel{
+    background: #EDEDED;
+    margin-top: 298px;
+}
+#reservation-pk-cel input{
+    border-color: #DDDDDD;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+}
+#reservation-pk-cel h1{
+    color:#848484;
+}
+#reservation-pk{
+    background: #EDEDED;
+    margin-top: 150px;
+    border-radius: 5px;
+}
+#reservation-pk input{
+    border-color: #DDDDDD;
+    border-radius: 5px;
+    padding: 10px 10px 10px 10px;
+}
+#reservation-pk h1{
+    color:#848484;
+}
+#pack{
+    display: none;
+}
+#pack h4{
+    text-align: justify;
+    font-size: 0.8em;
+}
+#pack-header{
+    background: #B7D93D;
+    color: white;
+    font-size: 1.2em;
+}
+#find-package label{
+    font-size: 0.7em;
+}
+/*TERMS & CONDITIONS*/
+#paraf-terms{
+    padding: 20px 20px 20px 20px;
+}
+#btn-pay{
+    display: none;
+}
